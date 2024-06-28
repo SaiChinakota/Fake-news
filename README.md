@@ -1,18 +1,29 @@
-## Data Analytics and Machine Learning Projects
-Welcome to my GitHub repository, a collection of projects showcasing my work in data analytics and machine learning. This repository contains Fake news detection in twitter project that highlights my skills in data processing, analysis, visualization, and predictive modeling. Below is an overview of the key projects included:
+### Cleaning&Vizualization.ipynb
 
-### Project
-Fake News Detection
-Building a machine learning model to classify news articles as fake or real. The project involves natural language processing (NLP) for text data preprocessing and feature extraction, followed by model training and evaluation. Tools used: Python, NLTK, Scikit-learn, and TensorFlow.
+This notebook contains data preprocessing algorithm and preliminary data vizualization.
 
-### Skills Demonstrated
-Programming Languages: Python, R, SQL, NoSQL
-Data Analysis and Visualization: Pandas, Seaborn, Matplotlib.
-Machine Learning and NLP: Scikit-learn, TensorFlow, NLTK
-Database Management: MySQL
-Other Tools: Microsoft Excel, Scrum methodology
+Data cleaning steps:
 
-### About Me
-I am passionate about data analytics and machine learning, with a strong academic background and professional experience in these fields. I enjoy leveraging data to solve complex problems and drive business insights.
+Vizaualization:
+- Label distribution
+- Word clouds
 
-Feel free to explore the projects and reach out if you have any questions or suggestions. Happy coding!
+Authors: Alisa Raikovskaia (cleaning) & Gideon (vizualization)
+
+### MLImplementation.ipynb
+
+This notebook contains ML algorithms implementation and test results.
+
+Algorithms: TF-IDF + LogReg, BERT + GBTClassifier
+
+Both algorithms are tested on titles and bodies 
+
+Author: Alisa Raikovskaia
+
+### PredictionAnalysis.ipynb
+
+This notebook contains deeper prediction analysis, such as:
+- Closer look into samples, for which titles and bodies led to different predictions or both failed 
+- More detailed investigation of differences in predictive power of the approaches
+
+Author: Sai Yeshwanth Reddy Chinakota
